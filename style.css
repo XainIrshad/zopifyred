@@ -1,0 +1,93 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to left, red, white, black);
+}
+
+.navbar {
+  background: linear-gradient(to right, #111, #444);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.searchbar input {
+  border-radius: 25px;
+  border: none;
+  padding: 8px 15px;
+  width: 200px;
+}
+
+.loginsignup a {
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.loginsignup a:hover {
+  text-decoration: underline;
+}
+
+#coolbeans {
+  background: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff")
+    no-repeat center center/cover;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.welcome {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.your {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.shopnow {
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+
+.featured-products img {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.featured-products img:hover {
+  transform: scale(1.05);
+}
+
+.carousel {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .searchbar input {
+    width: 100px;
+  }
+
+  .welcome {
+    font-size: 2rem;
+  }
+
+  .your {
+    font-size: 1rem;
+  }
+}
+
+/*carousel item */
+.carousel {
+  background: linear-gradient(to bottom, #f01212, #2b0101, #d2d6da);
+}
+
+.bg-color {
+  background: linear-gradient(to bottom, #0a0000, #2b0101, #030a11);
+}
